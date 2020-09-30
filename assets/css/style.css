@@ -80,8 +80,18 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
-}
 /*Hero Style End*/
+}
+
+/*Hero Text Start*/
+.hero-cta h2 {
+    color: #fce138;
+}
+.hero-cta {
+    color: white;
+    font-size: 24px;
+}
+/*Hero Text End*/
 
 /*Form Style Start*/
 .hero-form {
