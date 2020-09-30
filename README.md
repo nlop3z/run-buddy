@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,3 +12,5 @@ http://nlop3z.github.io/run-buddy
 
 ## Contribution
 Made with ❤️ by Nelly Lopez
+
+### ©️2019 Run Buddy, Inc 
