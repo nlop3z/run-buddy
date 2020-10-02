@@ -348,7 +348,7 @@ width: 50%;
     }
 
     header h1 {
-        width: 100%
+        width: 100%;
         text-align: center;
     }
 
@@ -390,10 +390,6 @@ width: 50%;
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
         /* this will be applied on any screen between 768px and 575px */
-    section {
-        padding: 30px 15px;
-    }
-
     section {
         padding: 30px 15px;
     }
