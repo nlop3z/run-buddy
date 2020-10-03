@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px  15px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
     font-size: 1.55vw;
@@ -202,7 +202,7 @@ width: 50%;
 }
 
 .step-image {
-    flex: 1 12%;
+    flex: 0 30%;
     margin-right: 20px;
 }
 
@@ -301,13 +301,19 @@ width: 50%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.contact-info-2 {
+    flex-direction: column;
+}
 .contact-info > * {
     flex: 1;
     margin: 15px;
 }
 
-.contact-form input, .contact-form textarea {
+form {
+    display: block;
+}
+
+.contact-info input, .contact-info textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -317,8 +323,12 @@ width: 50%;
     margin-bottom: 15px;
     margin-top: 5px;
 }
-
-.contact-form button {
+.contact-info-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-info button {
     width: 100%;
     border: none;
     background-color: #fce138;
@@ -348,7 +358,7 @@ width: 50%;
     }
 
     header h1 {
-        width: 100%
+        width: 100%;
         text-align: center;
     }
 
@@ -393,11 +403,7 @@ width: 50%;
     section {
         padding: 30px 15px;
     }
-
-    section {
-        padding: 30px 15px;
-    }
-        
+   
     .step h3 {
         flex: 1 100%;
         text-align: center;
@@ -448,7 +454,7 @@ width: 50%;
         flex: 0 100%;
     }
 
-    .contact-form {
+    .contact-info-2 {
         order: 3;
     }
 }
